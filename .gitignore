@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Data files (large, download separately)
+data/corpus/*.jsonl
+data/rewrites/*.jsonl
+data/splits/*.jsonl
+data/*.json
+data/*.jsonl
+*.parquet
+
+# Internal documentation (not for public)
+EXPERIMENTAL_*.md
+INTEGRATION_*.md
+*_INTERNAL.md
+
+# Cache
+.pact_corpus/
+*.cache
+
+# API keys
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/

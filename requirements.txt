@@ -1,0 +1,27 @@
+# PACT Corpus - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core
+python-dateutil>=2.8.0
+
+# Data processing
+pyarrow>=14.0.0       # Parquet support
+zstandard>=0.22.0     # For Pushshift archives
+
+# API clients (install as needed)
+openai>=1.0.0         # OpenAI and compatible APIs
+anthropic>=0.18.0     # Claude API
+google-generativeai>=0.3.0  # Gemini API
+
+# Optional: for specific collectors
+# requests>=2.31.0    # Alternative HTTP client
+# aiohttp>=3.9.0      # Async HTTP
+
+# Development
+pytest>=7.0.0
+pytest-asyncio>=0.23.0
+black>=23.0.0
+ruff>=0.1.0
+
+# SpecHO integration (install from your specHO repo)
+# -e ../specHO
