@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Suppress pkg_resources deprecation warning from pronouncing library
+import warnings
+warnings.filterwarnings("ignore", message=".*pkg_resources is deprecated.*")
+
 """
 Manual Validation Tool - Inspect Single Document in Detail
 

@@ -11,6 +11,10 @@ Extends SpecHO validation with complete cognitive fingerprints:
 Total: 39 dimensions per text
 """
 
+# Suppress pkg_resources deprecation warning from pronouncing library
+import warnings
+warnings.filterwarnings("ignore", message=".*pkg_resources is deprecated.*")
+
 import sys
 from pathlib import Path
 from typing import Dict, List

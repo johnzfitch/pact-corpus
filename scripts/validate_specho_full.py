@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+# Suppress pkg_resources deprecation warning from pronouncing library
+import warnings
+warnings.filterwarnings("ignore", message=".*pkg_resources is deprecated.*")
+
 """
 Full SpecHO Validation: All 6 Models from HuggingFace Dataset
 
